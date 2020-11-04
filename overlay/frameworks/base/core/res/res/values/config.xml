@@ -278,4 +278,8 @@
 
     <dimen name="rounded_corner_radius_top">90px</dimen>
     <dimen name="rounded_corner_radius_bottom">90px</dimen>
+
+    <!-- Whether device has a notch -->
+    <bool name="config_haveNotch">true</bool>
+
 </resources>
