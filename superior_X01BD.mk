@@ -18,6 +18,9 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Gapps
+$(call inherit-product-if-exists, vendor/google/gms/config.mk)
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := superior_X01BD
 PRODUCT_DEVICE := X01BD
